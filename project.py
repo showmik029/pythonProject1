@@ -32,4 +32,4 @@ def calculate_distance(current, target):
     cursor.execute(sql, (current, target,distance))
     connection.commit()
     return distance
-print(calculate_distance("00A","00AZ"))
+
