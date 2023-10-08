@@ -9,6 +9,7 @@ connection = mysql.connector.connect(
     autocommit = True
 )
 
+#akib's function
 def choose_destination(lst1):
     user_input = input("Choose from the choices Displayed: ")
     for i in lst1:
@@ -50,3 +51,5 @@ def range_in (airplane_size, userid, current = 'EFHK'):
 
 
     return
+#test
+x=0
